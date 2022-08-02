@@ -1,8 +1,13 @@
+import { BrowserRouter as Router } from "react-router-dom";
 import Navigation from "./components/navigation/Navigation";
 
 const AppCommerce = () => {
   return (
-  <Navigation/>
+  
+    <Router>
+      <Navigation/>
+    </Router>
+
   );
 }
 
